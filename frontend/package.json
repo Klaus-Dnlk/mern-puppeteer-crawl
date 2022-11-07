@@ -1,0 +1,59 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Frontend: React with Formik and Material-UI",
+  "author": "",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "@mui/material": "^5.10.11",
+    "@types/superagent": "^4.1.15",
+    "autoprefixer-stylus": "^1.0.0",
+    "axios": "^1.1.3",
+    "formik": "^2.1.4",
+    "prop-types": "^15.7.2",
+    "puppeteer": "^19.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-toastify": "^5.5.0",
+    "react-transition-group": "^4.3.0",
+    "sass": "^1.45.1",
+    "stylus": "^0.54.7",
+    "superagent": "^8.0.3",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0",
+    "yup": "^0.28.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
